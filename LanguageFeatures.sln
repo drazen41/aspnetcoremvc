@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio.Tests", "WorkingWithVisualStudio.Tests\WorkingWithVisualStudio.Tests.csproj", "{BEA62C10-1484-4A54-88A6-D447A986E84D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore", "SportsStore\SportsStore.csproj", "{69F6F94E-78C0-40DD-B185-31ECCA05311A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStore", "SportsStore\SportsStore.csproj", "{69F6F94E-78C0-40DD-B185-31ECCA05311A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Tests", "SportsStore.Tests\SportsStore.Tests.csproj", "{127E647D-6656-42CE-9A30-797C5EF511FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStore.Tests", "SportsStore.Tests\SportsStore.Tests.csproj", "{127E647D-6656-42CE-9A30-797C5EF511FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfiguringApps", "ConfiguringApps\ConfiguringApps.csproj", "{E651D817-CBFC-480E-AA4D-F89C2393BC59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{127E647D-6656-42CE-9A30-797C5EF511FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{127E647D-6656-42CE-9A30-797C5EF511FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{127E647D-6656-42CE-9A30-797C5EF511FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E651D817-CBFC-480E-AA4D-F89C2393BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E651D817-CBFC-480E-AA4D-F89C2393BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E651D817-CBFC-480E-AA4D-F89C2393BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E651D817-CBFC-480E-AA4D-F89C2393BC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
