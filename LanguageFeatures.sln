@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStore.Tests", "Sports
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfiguringApps", "ConfiguringApps\ConfiguringApps.csproj", "{E651D817-CBFC-480E-AA4D-F89C2393BC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes", "UrlsAndRoutes\UrlsAndRoutes.csproj", "{41E2EBCD-7FC3-4FA8-B379-D4347458624E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlsAndRoutes", "UrlsAndRoutes\UrlsAndRoutes.csproj", "{41E2EBCD-7FC3-4FA8-B379-D4347458624E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControllersAndActions", "ControllersAndActions\ControllersAndActions.csproj", "{EDD0B1D3-6E52-44D1-A7C2-E73916C00923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionTests", "SolutionTests\SolutionTests.csproj", "{184AFAE1-165A-458E-A99C-8DD807C6BDBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{41E2EBCD-7FC3-4FA8-B379-D4347458624E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E2EBCD-7FC3-4FA8-B379-D4347458624E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E2EBCD-7FC3-4FA8-B379-D4347458624E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD0B1D3-6E52-44D1-A7C2-E73916C00923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD0B1D3-6E52-44D1-A7C2-E73916C00923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD0B1D3-6E52-44D1-A7C2-E73916C00923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD0B1D3-6E52-44D1-A7C2-E73916C00923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184AFAE1-165A-458E-A99C-8DD807C6BDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184AFAE1-165A-458E-A99C-8DD807C6BDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184AFAE1-165A-458E-A99C-8DD807C6BDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184AFAE1-165A-458E-A99C-8DD807C6BDBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
