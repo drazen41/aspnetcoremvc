@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ControllersAndActions\ControllersAndActions.csproj" />
     <ProjectReference Include="..\DependencyInjection\DependencyInjection.csproj" />
+    <ProjectReference Include="..\Filters\Filters.csproj" />
   </ItemGroup>
 
 </Project>
