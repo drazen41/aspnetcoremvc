@@ -11,11 +11,14 @@ namespace Filters.Controllers
     //[Profile]
     //[ViewResultDetails]
     //[RangeException]
-    [TypeFilter(typeof(DiagnosticsFilter))]
+    //[TypeFilter(typeof(DiagnosticsFilter))]
     //[TypeFilter(typeof(TimeFilter))]
-    [ServiceFilter(typeof(TimeFilter))]
+    //[ServiceFilter(typeof(TimeFilter))]
+    [Message("This is the Controller-Scoped Filter")]
     public class HomeController : Controller
     {
+        [Message("This is the First Action-Scoped Filter")]
+        [Message("This is the Second Action-Scoped Filter")]
         public ViewResult Index() => View("Message", "This is the Index action on the Home controller");
 
         public IActionResult SecondAction()
