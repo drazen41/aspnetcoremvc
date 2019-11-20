@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link asp-href-include="lib/bootstrap/css/*.min.css" rel="stylesheet" />
+</head>
+<body class="m-1 p-1">
+    <div class="bg-primary m-1 p-1">
+        <div class="row text-white">
+            <div class="col-7"><h1>Products</h1></div>
+            <div class="col-5">
+                <div class="text-center m-1 p-1 text-white">
+                @*City Placeholder*@
+                    @*@await  Component.InvokeAsync(nameof(CitySummary),new { showList = false })*@
+                    @await  Component.InvokeAsync("ComboComponent")
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-1 p-1">@RenderBody()</div>
+    @await  Component.InvokeAsync("PageSize")
+</body>
+</html>

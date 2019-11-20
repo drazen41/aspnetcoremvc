@@ -19,6 +19,7 @@
     <ProjectReference Include="..\ControllersAndActions\ControllersAndActions.csproj" />
     <ProjectReference Include="..\DependencyInjection\DependencyInjection.csproj" />
     <ProjectReference Include="..\Filters\Filters.csproj" />
+    <ProjectReference Include="..\UsingViewComponents\UsingViewComponents.csproj" />
   </ItemGroup>
 
 </Project>
