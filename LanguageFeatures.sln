@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filters", "Filters\Filters.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiControllers", "ApiControllers\ApiControllers.csproj", "{53BC921C-A214-4FC2-ACA0-7CD6C360C803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{0931B892-36F2-4F94-8CF3-51299D5DC9C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{53BC921C-A214-4FC2-ACA0-7CD6C360C803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53BC921C-A214-4FC2-ACA0-7CD6C360C803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53BC921C-A214-4FC2-ACA0-7CD6C360C803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0931B892-36F2-4F94-8CF3-51299D5DC9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0931B892-36F2-4F94-8CF3-51299D5DC9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0931B892-36F2-4F94-8CF3-51299D5DC9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0931B892-36F2-4F94-8CF3-51299D5DC9C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
