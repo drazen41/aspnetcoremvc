@@ -31,11 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiControllers", "ApiContro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Views", "Views\Views.csproj", "{0931B892-36F2-4F94-8CF3-51299D5DC9C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingViewComponents", "UsingViewComponents\UsingViewComponents.csproj", "{4DFA95D0-82FD-45C4-B4CF-F2E00AA359EB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelpers", "TagHelpers\TagHelpers.csproj", "{C06F63A3-9630-40FD-B133-AC9F4EE0A10C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities", "Cities\Cities.csproj", "{01A6185E-22AA-45A1-8D66-2DB6E8984DF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingViewComponents", "UsingViewComponents\UsingViewComponents.csproj", "{4DFA95D0-82FD-45C4-B4CF-F2E00AA359EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,14 +99,6 @@ Global
 		{4DFA95D0-82FD-45C4-B4CF-F2E00AA359EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DFA95D0-82FD-45C4-B4CF-F2E00AA359EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DFA95D0-82FD-45C4-B4CF-F2E00AA359EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C06F63A3-9630-40FD-B133-AC9F4EE0A10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C06F63A3-9630-40FD-B133-AC9F4EE0A10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C06F63A3-9630-40FD-B133-AC9F4EE0A10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C06F63A3-9630-40FD-B133-AC9F4EE0A10C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01A6185E-22AA-45A1-8D66-2DB6E8984DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01A6185E-22AA-45A1-8D66-2DB6E8984DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01A6185E-22AA-45A1-8D66-2DB6E8984DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01A6185E-22AA-45A1-8D66-2DB6E8984DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
