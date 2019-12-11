@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		asp.net core mvc.pdf = asp.net core mvc.pdf
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Users\Users.csproj", "{5B767ADB-2563-4BF6-8284-092F9388E973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +124,10 @@ Global
 		{65BBEDAC-1EC5-4115-80E2-770FC1A2A911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BBEDAC-1EC5-4115-80E2-770FC1A2A911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65BBEDAC-1EC5-4115-80E2-770FC1A2A911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B767ADB-2563-4BF6-8284-092F9388E973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B767ADB-2563-4BF6-8284-092F9388E973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B767ADB-2563-4BF6-8284-092F9388E973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B767ADB-2563-4BF6-8284-092F9388E973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
