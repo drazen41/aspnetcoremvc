@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+
+    {
+      "library": "jquery@3.2.1",
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "twitter-bootstrap@4.0.0-alpha.6",
+      "destination": "wwwroot/bootstrap/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jQuery-Validation-Engine@2.6.4",
+      "destination": "wwwroot/jQuery-Validation-Engine/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "jquery-validate@1.19.1",
+  "destination": "wwwroot/lib/jquery-validate/"
+}
+]
+}
