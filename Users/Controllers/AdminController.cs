@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Users.Models;
@@ -10,6 +11,7 @@ using Users.Models;
 
 namespace Users.Controllers
 {
+    [Authorize(Roles ="Admins")]
     public class AdminController : Controller
     {
         private UserManager<AppUser> userManager;
